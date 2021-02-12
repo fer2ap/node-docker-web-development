@@ -2,9 +2,11 @@ FROM node:latest
 
 WORKDIR src
 
-RUN npm init && npm install express
+RUN npm init -y && npm install -g nodemon express
 
-COPY package.json src
-COPY node_modules src
+COPY package.json src/
+COPY node_modules src/
 
-CMD ["tail", "-f", "dev/null"]
+# CMD ["tail", "-f", "src/null"]
+
+CMD ["nodemon", "src"]

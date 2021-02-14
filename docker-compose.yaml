@@ -6,7 +6,7 @@ services:
     ports:
     - "8080:3000"
     volumes:
-      - .:/src/
+      - .:/app/src/
 
   db:
     image: postgres:9.4
@@ -25,7 +25,7 @@ services:
     tty: true
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@user.com
-      - PGADMIN_DEFAULT_PASSWORD=123456
+      - PGADMIN_DEFAULT_PASSWORD=senhasecreta
     ports:
       - "9000:80"
     depends_on:

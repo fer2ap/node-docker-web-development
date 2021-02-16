@@ -1,7 +1,7 @@
 # node-docker-web-development
 This repo is the basic structure required to run a development environment for a nodejs web server
 
-The docker-compose file difines 3 apps:
+The docker-compose file defines 3 apps:
  - a node web server at localhost:8080/
  - a postgresql db at localhost:5432/
  - a pgadmin server at localhost:9000/

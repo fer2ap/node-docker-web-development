@@ -8,8 +8,11 @@ The docker-compose file difines 3 apps:
 
 # The content in this repo was develop with the help of awesome people from youtube. Thank you
 -> Wesley https://www.youtube.com/channel/UCMUoZehUZBhLb8XaTc8TQrA
+
 -> Hussein Nasser https://www.youtube.com/user/GISIGeometry
+
 -> Nana https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA
+
 -> NetworkChuck https://www.youtube.com/user/NetworkChuck
 
 # You can learn more about docker on the official doc
